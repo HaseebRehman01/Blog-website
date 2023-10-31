@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<form onsubmit="signUpData()">
+   
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="signup-header">
+                <h1> Sign<span>Up</span></h1>
+                <p>It just takes <span>30 </span>seconds</p>
+            </header>
+
+
+            <main class="signup-body">
+                <form action="#">
+                    <p>
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" placeholder="Haseeb Ur Rehman" required>
+
+                    </p>
+                    <p>
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" placeholder="haseeburrehman763@gmail.com" required>
+
+                    </p>
+                    <p>
+                        <label for="password"> Your Password</label>
+                        <input type="password" id="password"
+                            placeholder="Min 8 characters (letters, numbers, 1 special character)" required>
+
+                    </p>
+                    <p>
+                        <label for="password"> Confirm Password</label>
+                        <input type="password" id="c-password"
+                            placeholder="Min 8 characters (letters, numbers, 1 special character)" required>
+
+                    </p>
+                    <p>
+
+                        <a href=""></a> <input type="submit" id="submit" value="Create Account ">
+                        <!-- value=  For Name   -->
+
+                    </p>
+             
+            </main>
+            <footer class="signup-footer">
+                <p>Already have an acoount? <a href="login.html">Login</a></p>
+            </footer>  
+        </div>
+         </form>
+        <div class="round c1"></div>
+        <div class="round c2"></div>
+    </div>
+
+    <script src="app.js"></script>
+
+
+
+
+</body>
+
+</html>

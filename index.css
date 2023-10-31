@@ -1,0 +1,113 @@
+/* font-awesome */
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Lato:wght@400;700&family=Roboto:ital,wght@1,100&family=Rubik:ital,wght@1,300&display=swap');
+
+/* All elements styyling */
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+/* body styling */
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* Parent styling  */
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background: linear-gradient(to top left, rgb(179, 13, 179),rgb(230, 131, 230));
+}
+/* child syling (positioning 2nd div) */
+.inner-box{
+  
+    margin: 0 auto;
+    width: 500px;
+
+padding: 20px 40px;
+background-color:rgb(245, 238, 245);
+border-radius: 9px;
+box-shadow: 2px 2px 5px #005669;
+z-index: 2;
+}
+/* signup header */
+.signup-header h1{
+    font-size: 2.5rem;
+    color: #212121;
+    text-align: center;
+}
+span{
+    color:purple;
+}
+.signup-header p{
+    font-size: 0.9rem;
+    color: #555;
+    margin-top:10px ;
+    text-align: center;
+    border: no;
+ }/* signup header complete*/
+/* main signup body (input) */
+.signup-body{
+    margin: 20px 0;
+
+}
+.signup-body p{
+    margin: 15px 0px;
+}
+.signup-body label{
+    display: block;/* beacuse input inline hota, idhar esi lya nahi dekhraha qka jaga ka    m hai */
+    font-weight: bold;
+
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid  rgb(255, 230, 255);
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-left: -3px;
+    font-size: 0.9rem;
+    color: black ;
+    font-weight: lighter;
+
+}
+
+
+.signup-body  input[type="submit"]{
+    padding: 11px;
+    background-color: rgb(139, 0, 139);
+ color: #ffffff;
+
+font-weight: bold;
+  
+    border-radius: 20px;
+}
+.signup-body  input:hover[type="submit"]{
+    background-color:rgb(197, 36, 197);
+  cursor: pointer;
+  color: white;
+}
+
+.signup-footer{
+    text-align: center;
+font-size: 14px;}
+
+.round{
+    height: 200px;
+    width: 200px;
+    border-radius:100px ;
+    background:linear-gradient(to top right, #bcbcbc33 ,#ffffff) ;
+}
+.c1{
+    position: absolute;
+    top:40px ; 
+    left: 40px
+}
+.c2{
+    position: absolute;
+    bottom:40px ; 
+    right: 40px
+}
