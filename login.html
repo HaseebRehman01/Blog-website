@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <form onsubmit="login()">
     <div class="outer-box">
     <div class="inner-box">
         <header class="signup-header">
@@ -16,29 +17,31 @@
 
 
         <main class="signup-body">
-            <form action="#">
+       
        <p>
                     <label for="email">Your Email</label>
-                    <input type="email" id="email" placeholder="haseeburrehman763@gmail.com" required >
+                    <input type="email" id="login-email" placeholder="haseeburrehman763@gmail.com" required >
                     
                 </p>
                 <p>
                     <label for="password"> Your Password</label>
-                    <input type="password" id="password" placeholder="at least 8 characters" required >
+                    <input type="password" id="login-password" placeholder="at least 8 characters" required >
                     
                 </p>
                  <p>
                     
-                   <a href=""></a>  <input type="submit" id="submit" value="Create Account "> <!-- value=  For Name   -->
+                   <a href=""></a>  <input type="submit" id="submit" value="Login "> <!-- value=  For Name   -->
                     
                 </p>
-            </form>
+      <p>        <a href="./index.html">signup</a></p>
         </main>
     
     </div>
     <!-- <div class="round c1"></div>
     <div class="round c2"></div> -->
 </div> 
+</form>
+<script src="app.js"></script>
 </body>
 </html>
 
