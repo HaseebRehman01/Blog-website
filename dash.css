@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+    width: 100%;
+    min-height: 100vh;
+
+}
+.header{
+    background-color: purple;
+    height: 15vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+}
+.button1{
+    padding: 7px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(139, 0, 139);
+
+    border: 1px solid white ;
+}
+
+button{
+  
+        padding: 7px 30px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(139, 0, 139);
+    border: none;
+
+        
+    }
+
+
+
+h2{
+
+}
+.main{
+    width: 100%;
+    display: flex !important;
+  /* min-height: 100vh !important; */
+flex-direction: column;
+align-items: center;
+    justify-content: center;
+}
+.card{
+    margin-bottom: 20px;
+    width: 60vw;
+/* height: 70vh !important; */
+border: 2px solid purple !important;
+
+}
+input {
+    margin-bottom: 10px !important;
+width: 100%;
+}
+#desc{
+    /* height: 80px; */
+
+}
+input :active{
+    border: none !important;
+}
+.main-2{
+    padding-top: 30px;
+}
+#title-content{
+font-size: xx-large !important;
+font-weight: 800 !important;
+background-color: purple;
+color: white;
+margin-bottom: 20px;
+text-align: center;
+}
+#desc-content{
+    font-size: large !important;
+    font-weight: 600;
+}
+.main-3{
+    border: 1px solid purple !important;
+}
+.kaam{
+    min-height: 100vh;
+    width: 100%;
+
+    background-color: rgb(251, 245, 251);
+}
+/* Remove border and background on click, hover, and active states with !important */
+
+label{
+    font-size: large;
+    font-weight: 600;
+}
